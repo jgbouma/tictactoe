@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boter, kaas en eieren</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="game-header">
+            <h1>Boter, kaas en eieren</h1>
+        </header>
+        <section class="game-body">
+            <h1>X - O</h1>
+            <h2 class="game-score"></h2>
+            <div class="game-grid">
+                <div data-cell-index="0" class="cell"></div>
+                <div data-cell-index="1" class="cell"></div>
+                <div data-cell-index="2" class="cell"></div>
+                <div data-cell-index="3" class="cell"></div>
+                <div data-cell-index="4" class="cell"></div>
+                <div data-cell-index="5" class="cell"></div>
+                <div data-cell-index="6" class="cell"></div>
+                <div data-cell-index="7" class="cell"></div>
+                <div data-cell-index="8" class="cell"></div>
+            </div>
+            <h2 class="game-status"></h2>
+            <button id="restart-btn" class="btn btn-dark">Opnieuw spelen</button>
+            <button id="reset-score-btn" class="btn btn-dark">Verzend gegevens en zet score op 0</button>
+        </section>
+        <footer class="footer">
+            <h5>© <span id="current-year"></span> Bouma</h5>
+        </footer>
+    </div>
+</body>
+</html>

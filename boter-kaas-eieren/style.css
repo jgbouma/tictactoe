@@ -1,0 +1,28 @@
+section {
+    text-align: center;
+}
+
+.game-header {
+    text-align: center;
+}
+
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: 50px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px black;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+.footer {
+    text-align: left;
+}
